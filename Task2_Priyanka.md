@@ -30,7 +30,7 @@ In the end, if the answer of any operation is Negative print a statement saying 
 NOTE: At a time users can perform one action at a time.
 '''
 
-option = int(input("Choose an option from the following: 1-Addition, 2-Subtraction, 3-Division, 4-Multiplication or 5-Average): "))
+option = int(input("Choose an option from the following: 1-Addition, 2-Subtraction, 3-Division, 4-Multiplication or 5-Average): ")) 
 
 if option <= 5 and option >= 1:
     variable1 = int(input("Enter the first value: "))
