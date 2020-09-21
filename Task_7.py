@@ -233,3 +233,4 @@ for i in range(0, a):
     age = int(input())         
     p = Person(age)  
     p.amIOld()
+    p.yearPasses()
